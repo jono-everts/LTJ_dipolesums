@@ -1,5 +1,5 @@
 import numpy as np
-import DipoleLatticeField_JE
+import DipoleLatticeField
 import pickle
 import gzip
 
@@ -15,7 +15,7 @@ k=1.380*10**(-23)
 NA=6.022*10**23
 mu0=4*pi*10**(-7)
 
-NdGaO3 = DipoleLatticeField_JE.MonoclinicLattice()
+NdGaO3 = DipoleLatticeField.MonoclinicLattice()
 NdGaO3.axes(5.4276, 5.4979, 7.7078, 0)
 NdGaO3.g_tensor(2.7, 2.02,0)
 

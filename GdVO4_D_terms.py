@@ -1,5 +1,5 @@
 import numpy as np
-import DipoleLatticeField_JE
+import DipoleLatticeField
 import pickle
 import gzip
 
@@ -15,7 +15,7 @@ k=1.380*10**(-23)
 NA=6.022*10**23
 mu0=4*pi*10**(-7)
 
-GdVO4 = DipoleLatticeField_JE.Tetragonal()
+GdVO4 = DipoleLatticeField.Tetragonal()
 GdVO4.axes(7.2126, 6.3485)
 GdVO4.g_tensor(2, 2)
 

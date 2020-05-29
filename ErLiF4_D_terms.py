@@ -1,5 +1,7 @@
 import numpy as np
 import DipoleLatticeField
+import pickle
+import gzip
 
 def tup_to_array(tup):
     mat = np.array([[tup[0], tup[1], tup[2]],[tup[3], tup[4], tup[5]],[tup[6], tup[7], tup[8]]])
